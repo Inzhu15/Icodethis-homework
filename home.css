@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.typography,
+.headings,
+.colors,
+.buttons {
+    margin-bottom: 40px;
+}
+
+.typography h2,
+.headings h2,
+.colors h2,
+.buttons h2 {
+    background-color: #d3d3d3;
+    padding: 5px;
+    display: inline-block;
+}
+
+.typography p {
+    margin: 5px 0;
+}
+
+.typography p:first-child {
+    font-weight: bold;
+}
+
+.typography p:nth-child(2) {
+    font-style: italic;
+}
+
+.typography p:nth-child(3) {
+    font-family: Arial, sans-serif;
+}
+
+.typography p:nth-child(4) {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.typography p:nth-child(5) {
+    text-decoration: underline;
+}
+
+.typography p:nth-child(6) {
+    text-decoration: line-through;
+}
+
+.headings h1,
+.headings h2,
+.headings h3 {
+    margin: 5px 0;
+}
+
+.colors .color-box {
+    width: 100px;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.colors .orange {
+    background-color: orange;
+}
+
+.colors .purple {
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons .default {
+    background-color: #241b7c;
+}
+
+.buttons .hovered {
+    background-color: #7063cf;
+}
+
+.buttons .active {
+    background-color: #9d94e4;
+}
